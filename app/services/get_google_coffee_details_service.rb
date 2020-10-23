@@ -5,7 +5,7 @@ class GetGoogleCoffeeDetailsService
 
   def initialize(place_id)
     @place_id = place_id
-    @api_key = 'AIzaSyDX4bWoFiltWgD0uH4HiQHNgADVk90oFck'
+    @api_key = ''
   end
   
   def call
